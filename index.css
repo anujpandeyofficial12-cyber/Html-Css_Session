@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: #f5f5f5;
+}
+header{
+    background-color: #333;
+    color: #f2f2f2;
+    padding:20px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+h2{
+    color:rgb(255, 255, 255);
+    font-family:'Times New Roman', Times, serif
+}
+nav a{
+    color: #f1f1f1;
+    text-decoration: none;
+   
+     padding: 5px 10px;
+}
+nav a:hover{
+    transform: scale(1,1);
+    background-color:#d4af37;
+    color: #f2f2f2;
+    border-radius: 20px;
+   
+}
+.container{
+    display: flex;
+    justify-content: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+h1{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left: 10px;
+    color:rgb(139, 88, 20)
+}
+.card{
+   
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 3px 8px 15px rgba(212, 159, 59, 0.476);
+    padding: 20px;
+    margin: 20px;
+    
+}
+.card button{
+    background-color: #d4af37;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer; 
+    margin-left:45px;
+   
+    
+}
+
+.card h3{
+    margin-left: 45px;
+  
+}
+.card p{
+    margin-left: 45px;
+}
+
+

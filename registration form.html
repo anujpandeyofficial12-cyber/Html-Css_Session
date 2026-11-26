@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="registration form.css ">
+</head>
+
+<body>
+
+    <form class="form-card">
+        <h1>Registration Form</h1>
+        <p class="sub">Fill in your details below.</p>
+
+        <!-- Full Name Field -->
+
+        <div class="field">
+            <label class="title">Full Name<span class="text-danger">*</span></label>
+            <input type="text" id="full name" placeholder="Enter your name">
+        </div>
+
+        <!-- Password field -->
+
+        <div class="field">
+            <label class="title">Password<span class="text-danger">*</span></label>
+            <input type="password" id="password" placeholder="Enter your password">
+        </div>
+
+        <!-- Address field -->
+
+        <div class="field">
+            <label class="title">Address<span class="text-danger">*</span></label>
+            <input type="text" id="address" placeholder="Enter your address(street,house no,tole)" required>
+        </div>
+
+        <!-- Dristict Field -->
+
+        <div class="field">
+            <label class="title">Select District<span class="text-danger">*</span></label>
+            <select id="District" required>
+                <option value="" selected disabled>Select District </option>
+                <option value="rupandehi">Rupandehi</option>
+                <option value="ktm">Kathmandu</option>
+                <option value="bagmati">Bagmati</option>
+
+            </select>
+
+            <!-- Date of birth -->
+
+            <div class="field">
+                <label class="title">Date of Birth<span class="text-danger">*</span></label>
+                <input type="date" id="dob" placeholder="MM/DD/YYY" required>
+            </div>
+        </div>
+
+        <!-- Gender Field -->
+
+        <fieldset>
+            <span class="legend">Gender <span class="text-danger">*</span></span>
+            <div class="options">
+                <label class="option">
+                    <input type="radio" name="gender" value="male" /> <span>Male</span>
+                </label>
+                <label class="option">
+                    <input type="radio" name="gender" value="female" /> <span>Female</span>
+                <label>
+            </div>
+        </fieldset>
+
+        <!-- Hobbies section-->
+
+        <fieldset>
+            <span class="legend">Hobbies<span class="text-danger">*</span></span>
+            <div class="options">
+                <label class="option">
+                    <input type="checkbox" name="sports" value="cricket" /> <span>Cricket</span>
+                <label>
+                <label class="option">
+                    <input type="checkbox" name="sports" value="table-tennis" /> <span>Table-Tennis</span>
+                </label>
+                <label class="option">
+                    <input type="checkbox" name="sports" value="chess" /> <span>Chess</span>
+                </label>
+            </div>
+        </fieldset>
+
+        <!-- Messeage Field -->
+
+        <div class="field">
+            <label class="title">Message</label>
+            <textarea id="message" placeholder="Write your message here...">
+        </textarea>
+        </div>
+
+        <!-- Button field -->
+
+        <div class="button">
+            <button type="reset">Reset</button>
+            <button type="submit">Submit</button>
+        </div>
+    </form>
+</body>
+
+</html>
